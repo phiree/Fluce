@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluce.Domain", "Fluce.Domain\Fluce.Domain.csproj", "{845EC5C0-8218-4EEB-A0E7-287F1A148B04}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluce.AutoAssign", "Fluce.AutoAssign\Fluce.AutoAssign.csproj", "{26B4AC44-212F-440E-9DB9-89FE8759783E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{845EC5C0-8218-4EEB-A0E7-287F1A148B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{845EC5C0-8218-4EEB-A0E7-287F1A148B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{845EC5C0-8218-4EEB-A0E7-287F1A148B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{845EC5C0-8218-4EEB-A0E7-287F1A148B04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26B4AC44-212F-440E-9DB9-89FE8759783E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26B4AC44-212F-440E-9DB9-89FE8759783E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26B4AC44-212F-440E-9DB9-89FE8759783E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26B4AC44-212F-440E-9DB9-89FE8759783E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

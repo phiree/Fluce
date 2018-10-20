@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{845EC5C0-8218-4EEB-A0E7-287F1A148B04}</ProjectGuid>
+    <ProjectGuid>{26B4AC44-212F-440E-9DB9-89FE8759783E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Fluce.Domain</RootNamespace>
-    <AssemblyName>Fluce.Domain</AssemblyName>
+    <RootNamespace>Fluce.Domain.AutoAssign</RootNamespace>
+    <AssemblyName>Fluce.Domain.AutoAssign</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,11 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="DomainModel\AutoAssign.cs" />
     <Compile Include="DomainModel\DomainEntity.cs" />
-    <Compile Include="DomainModel\StaffId.cs" />
+    <Compile Include="DomainModel\RequirementToAutoAssign.cs" />
+    <Compile Include="DomainModel\StaffToAutoAssign.cs" />
+    <Compile Include="DomainModel\Period.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

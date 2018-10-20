@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Fluce.Domain.DomainModel
+namespace Fluce.AutoAssign.DomainModel
 {
     /// <summary>
     /// 自动分配任务
@@ -17,7 +17,7 @@ namespace Fluce.Domain.DomainModel
         /// </summary>
         /// <param name="staffIdsToBeAssign">待分配人员及他们的时间安排</param>
         /// <param name="timeLines"></param>
-        public void Assign(IList<StaffTimeLine> timeLines,)
+        public void Assign(IList<StaffToAutoAssign> staffToAutoAssigns)
         {
             //自动分配的人员范围
            
