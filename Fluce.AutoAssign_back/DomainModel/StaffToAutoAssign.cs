@@ -12,7 +12,6 @@ namespace Fluce.AutoAssign.DomainModel
     public class StaffToAutoAssign:DomainEntity<Guid>
     {
         public decimal SkillLevel { get; set; }
-
         
         IList<Period> AssignedPeriod { get; set; }
     }
