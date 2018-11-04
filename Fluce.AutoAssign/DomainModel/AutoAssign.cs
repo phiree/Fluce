@@ -18,7 +18,7 @@ namespace Fluce.AutoAssign.DomainModel
 
         /// <param name="staffIdsToBeAssign">待分配人员及他们的时间安排</param>
         /// <param name="deadLine">截至日期</param>
-        public void AssignToManageNode(IList<StaffToAutoAssign> staffToAutoAssigns,DateTime deadLine)
+        public void Assign(IList<StaffToAutoAssign> staffToAutoAssigns,DateTime deadLine)
         {
             //自动分配的人员范围
 
@@ -28,5 +28,18 @@ namespace Fluce.AutoAssign.DomainModel
 
             }
         }
+        /// <summary>
+        /// 时间分配算法
+        /// 
+        /// </summary>
+        /// <param name="start">开始时间</param>
+        /// <param name="end">结束时间</param>
+        /// <param name="assignedPeriods">已经分配的时间</param>
+        public void TimeAssign(DateTime start, DateTime end, IList<Period> assignedPeriods)
+        {
+
+        }
+
+
     }
 }
