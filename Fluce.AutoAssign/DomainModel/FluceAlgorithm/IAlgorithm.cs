@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Fluce.AutoAssign.DomainModel
 {
-   public interface IAlgorithm<T>
+   public interface ISplitter<T> where T:IComparable
     {
         /// <summary>
         /// 线段分割算法. 用N条线段分割一条线段.

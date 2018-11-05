@@ -9,11 +9,11 @@ namespace Fluce.AutoAssign.DomainModel
     /// <summary>
     /// 人员的时间线,一种dto,来自任务分配
     /// </summary>
-    public class StaffToAutoAssign:DomainEntity<Guid>
+    public class AutoAssignedResult: DomainEntity<Guid>
     {
-        public decimal SkillLevel { get; set; }
+        public Guid StaffId { get; set; }
 
         
-        IList<Period<DateTime>> AssignedPeriod { get; set; }
+        Period<DateTime> AssignedPeriod { get; set; }
     }
 }
