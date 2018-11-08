@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Fluce.AutoAssign.DomainModel
+namespace Fluce.AutoAssign.DomainModel.Requirement
 {
     public class Requirement:DomainEntity<Guid>
     {

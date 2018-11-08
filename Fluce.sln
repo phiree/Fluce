@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fluce.AutoAssign", "Fluce.AutoAssign\Fluce.AutoAssign.csproj", "{C2973D60-F003-4594-8B34-DDB50843669A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluce.AutoAssign.Test", "Fluce.AutoAssign.Test\Fluce.AutoAssign.Test.csproj", "{05A3B896-D32B-4810-B3E2-D4D686954014}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fluce.AutoAssign.Test", "Fluce.AutoAssign.Test\Fluce.AutoAssign.Test.csproj", "{05A3B896-D32B-4810-B3E2-D4D686954014}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluce.Core", "Fluce.Core\Fluce.Core.csproj", "{5841FE24-29CE-43F9-A557-45898E182BD3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{05A3B896-D32B-4810-B3E2-D4D686954014}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05A3B896-D32B-4810-B3E2-D4D686954014}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05A3B896-D32B-4810-B3E2-D4D686954014}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5841FE24-29CE-43F9-A557-45898E182BD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5841FE24-29CE-43F9-A557-45898E182BD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5841FE24-29CE-43F9-A557-45898E182BD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5841FE24-29CE-43F9-A557-45898E182BD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

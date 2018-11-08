@@ -10,4 +10,5 @@ namespace Fluce.AutoAssign.DomainModel
     {
         public Identify Id { get; set; }
     }
+     
 }
