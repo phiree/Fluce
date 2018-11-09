@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Fluce.Core.DomainModel;
-namespace Fluce.AutoAssign.DomainModel.Staff
+namespace Fluce.AutoAssign.DomainModel
 {
     public class StaffId:Identity
     {

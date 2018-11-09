@@ -5,6 +5,33 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="DomainModel\Assign\**" />
+    <Compile Remove="DomainModel\FluceAlgorithm\**" />
+    <Compile Remove="DomainModel\Requirement\**" />
+    <Compile Remove="DomainModel\Staff\**" />
+    <EmbeddedResource Remove="DomainModel\Assign\**" />
+    <EmbeddedResource Remove="DomainModel\FluceAlgorithm\**" />
+    <EmbeddedResource Remove="DomainModel\Requirement\**" />
+    <EmbeddedResource Remove="DomainModel\Staff\**" />
+    <None Remove="DomainModel\Assign\**" />
+    <None Remove="DomainModel\FluceAlgorithm\**" />
+    <None Remove="DomainModel\Requirement\**" />
+    <None Remove="DomainModel\Staff\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="DomainModel\AutoAssign.cs" />
+    <Compile Remove="DomainModel\IStaffService.cs" />
+    <Compile Remove="DomainModel\LiteWBS.cs" />
+    <Compile Remove="DomainModel\ManageNodeToAutoAssign.cs" />
+    <Compile Remove="DomainModel\RequirementToAutoAssign.cs" />
+    <Compile Remove="DomainModel\StaffToAutoAssign.cs" />
+    <Compile Remove="DomainModel\Task.cs" />
+    <Compile Remove="DomainModel\TaskAssign.cs" />
+    <Compile Remove="DomainModel\TimeScale.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Fluce.Core\Fluce.Core.csproj" />
   </ItemGroup>
 

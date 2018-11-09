@@ -7,7 +7,7 @@ namespace Fluce.AutoAssign.Application
 {
     public interface IAutoAssignApplication
     {
-        IList<AutoAssignedResult> Assign(IList<StaffToAutoAssign> staffToAutoAssigns, DateTime deadLine);
+        IList<Assignment> Assign(string requirementId,IList<string> groupIds);
 
 
     }

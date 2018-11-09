@@ -18,7 +18,7 @@ namespace Fluce.AutoAssign.DomainModel
 
         /// <param name="staffIdsToBeAssign">待分配人员及他们的时间安排</param>
         /// <param name="deadLine">截至日期</param>
-        public IList<AutoAssignedResult> Assign(IList<StaffToAutoAssign> staffToAutoAssigns,DateTime deadLine)
+        public IList<Assign.Assignment> Assign(IList<StaffToAutoAssign> staffToAutoAssigns,DateTime deadLine)
         {
             //自动分配的人员范围
 

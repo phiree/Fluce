@@ -2,7 +2,7 @@
 
 namespace Fluce.AutoAssign.DomainModel.Repository
 {
-    public interface IRepositoryRequirement:IRepository<Requirement,Guid>
+    public interface IRepositoryRequirement:IRepository<Requirement,RequirementId>
     {
 
     }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Fluce.Core.DomainModel;
-namespace Fluce.AutoAssign.DomainModel.Requirement
+namespace Fluce.AutoAssign.DomainModel
 {
    public  class RequirementId:Identity
     {
