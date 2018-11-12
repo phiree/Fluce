@@ -17,16 +17,16 @@ namespace Fluce.AutoAssign.Application
         {
 
         }
-        public IList< Assignment> Assign(string requirementId, IList<string> groupIds)
+        public IList<Assignment> Assign(string requirementId, IList<string> staffIds)
         {
             var requirementModelId = new RequirementId(requirementId);
             Requirement requirement = repoRequirement.GetById(requirementModelId);
             DateTime? begin = requirement.BeginDate;
             DateTime? deadline = requirement.DeadLine;
-            //staff tasks between the period
-            //根据小组/部门 计算 可待分配的人员.
-            var resourceNeed = requirement.CostResources;
-            var staffIds = candidateDetermine.Determine(groupIds, new FlucePeriod());
+            
+            
+           
+             
 
         }
 
