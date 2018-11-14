@@ -17,7 +17,7 @@ namespace Fluce.AutoAssign.Application
         {
 
         }
-        public IList<Assignment> Assign(string requirementId, IList<string> staffIds)
+        public IList<Assignment> Assign(string requirementId, IList<HRCost> hRCosts)
         {
             var requirementModelId = new RequirementId(requirementId);
             Requirement requirement = repoRequirement.GetById(requirementModelId);
